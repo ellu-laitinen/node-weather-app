@@ -10,7 +10,7 @@ const request = require('request')
         } else {
             callback(undefined, 
             body.current.weather_descriptions[0] + '. It is currently ' + body.current.temperature + ' degrees out and it feels like ' + 
-              body.current.feelslike + ' degrees. The humidity is ' + body.current.humidity + '%.'
+              body.current.feelslike + ' degrees. The wind speed is ' + body.current.wind_speed + 'km/h.'
 
             )
         }
