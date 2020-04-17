@@ -1,0 +1,63 @@
+body {
+    color: hotpink;
+    background: rgb(255, 255, 168);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+header a {
+    color: hotpink;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+a:hover {
+    color: indigo;
+}
+
+.main-content {
+    flex-grow: 1;
+
+}
+
+.portrait {
+    width: 250px;
+}
+
+footer {
+    color: rgb(158, 152, 152);
+    border-top: 1px solid rgb(156, 150, 150);
+    padding: 1rem 0;
+    margin: 1rem 0;
+}
+
+input {
+    border: 1px solid rgb(146, 144, 144);
+    padding: 6px;
+
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid rgb(146, 144, 144);
+    background: rgb(146, 144, 144);
+    color: white;
+    padding: 6px;
+    border-radius: 3px;
+
+}
