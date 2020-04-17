@@ -4,7 +4,6 @@ const hbs = require('hbs')
 const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 
-
 const app = express()
 const port = process.env.PORT || 3000  //first port is for heroku, 3000 is for local/if 1st port fails
 
@@ -14,6 +13,7 @@ const viewsPath = path.join(__dirname, '../templates/views')
 const partialsPath = path.join(__dirname, '../templates/partials')
 
 //Setup handlebars engine and views location
+
 app.set('view engine', 'hbs')
 app.set('views', viewsPath)
 hbs.registerPartials(partialsPath)
